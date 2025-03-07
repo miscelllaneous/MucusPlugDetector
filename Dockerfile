@@ -1,7 +1,5 @@
 FROM nvcr.io/nvidia/pytorch:24.08-py3
 
-RUN apt-get update && apt-get install -y 
-
 RUN pip install \
     SimpleITK==2.4.0 \
     nibabel==5.3.2 \
