@@ -52,14 +52,14 @@ def process_single_case(file_name, img_dir, mask_dir, lungmask_dir, weight_map_d
     convert_resolution_for_pair(dict, output_dir1, output_dir2, output_dir3, output_dir4, target_spacing=resolution)
 
 if __name__ == "__main__":
-    img_dir = "../train_input" 
-    mask_dir = "../train_mask"
-    lungmask_dir = "../train_lungmask"
-    weight_map_dir = "../train_weightmap"
-    output_dir1 = "../train_img05"
-    output_dir2 = "../train_mask05"
-    output_dir3 = "../train_lungmask05"
-    output_dir4 = "../train_weightmap05"
+    img_dir = "train_input" 
+    mask_dir = "train_airway"
+    lungmask_dir = "train_lungmask"
+    weight_map_dir = "train_weightmap"
+    output_dir1 = "train_img05"
+    output_dir2 = "train_airway05"
+    output_dir3 = "train_lungmask05"
+    output_dir4 = "train_weightmap05"
     resolution = (0.5, 0.5, 0.5)
     os.makedirs(output_dir1, exist_ok=True)
     os.makedirs(output_dir2, exist_ok=True)
