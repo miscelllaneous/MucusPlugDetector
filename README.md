@@ -91,8 +91,13 @@ Please cite our work if you find it helpful.
 
 ```bibtex
 @article{,
-  title={},
+  title={A Deep Learning Based Automated Detection of Mucus Plugs in Chest CT},
   author={Yuki, S., et al.},
-  year={2025}
+  journal = {medRxiv},
+  doi = {https://doi.org/10.1101/2025.03.09.25323501},
+  url = {https://www.medrxiv.org/content/10.1101/2025.03.09.25323501v1},
+  note = {Preprint},
+  year = {2025},
+  month = {3},
 }
 ```
