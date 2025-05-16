@@ -282,7 +282,7 @@ if __name__ == "__main__":
         "NUM_WORKERS_VAL": 4,
         "MODEL_DIR": 'models',
         "MAX_EPOCHS": 10000,
-        "DEVICES": [0, 1],
+        "DEVICES": [0],
         "LR": 0.0001,
         "WD": 0.0001,
         "LAST_MODEL_PATH": None
