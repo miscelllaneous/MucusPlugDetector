@@ -7,6 +7,8 @@ In our Institutional Review Board (IRB) approved retrospective study, we develop
 Download the models from Hugging Face and place the `models/` and `inference_input/` directories in the root directory of the repository:
 https://huggingface.co/yuki-sonoda/MucusPlugDetector
 
+The image files corresponding to the LIDC-IDRI dataset used in the paper are also available at this link.
+
 Please create an image and run a container following the provided Dockerfile. Please mount this directory.
 Place your nii.gz files in the inference_input directory.
 We recommend using HRCT data with finer resolution than 0.5mm in x and y directions, and thinner than 1mm resolution in z direction.
@@ -83,7 +85,7 @@ This code and the following paper utilize these tools and datasets:
 - [lungmask](https://github.com/JoHof/lungmask)
 - [TotalSegmentator](https://github.com/wasserth/TotalSegmentator)
 
-
+The authors acknowledge the National Cancer Institute and the Foundation for the National Institutes of Health, and their critical role in the creation of the free publicly available LIDC/IDRI Database used in this study.
 
 ### Citation
 
